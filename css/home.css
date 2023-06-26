@@ -800,7 +800,7 @@ body.dark-theme{
 /* Newsletter */
 
 .newsletter-section{
-    height: 25vh;
+    height: 40vh;
     width: 100%;
     margin-top: 5rem;
 }
@@ -1250,7 +1250,7 @@ body.dark-theme{
     }
 
     .footer{
-        padding-block: 8rem 3rem;
+        padding-block: 3rem 3rem;
     }
 
     .footer-container{
