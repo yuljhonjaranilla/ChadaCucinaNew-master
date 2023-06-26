@@ -1,0 +1,281 @@
+:root {
+    --header-height: 3.5rem;
+    --title-color: #DC780B;
+    --title-color-lighten: hsl(31, 90%, 43%);
+    --subtitle-color: #6FA12B;
+    --text-color: #656C73;
+    --body-color: #FAFFF4;
+    --container-color: white;
+    --body-font: Helvetica;
+    --title-font: 'AstoriaMedium';
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --z-tool-tip: 10;
+    --z-fixed: 100;
+  }
+
+  @media screen and (max-width: 767px) {
+    .recipe-title {
+      font-size: var(--biggest-font-size);
+      font-family: var(--title-font);
+      color: var(--subtitle-color);
+      margin-top: 5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .pic-rcp {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .serve-container,
+    .suggested-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3%;
+      margin-top: 2%;
+      margin-bottom: 4%;
+      color: var(--subtitle-color);
+    }
+
+    .serve-card,
+    .suggested-card {
+      position: relative;
+      width: 20%;
+      background-color: var(--container-color);
+      padding: 1rem;
+      box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
+      border-radius: 1rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .ingredient-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      padding: 10px;
+      width: 100%;
+    }
+
+    .left-column,
+    .right-column {
+        flex: 100%;
+        margin-left: 5%;
+        margin-right: 7%;
+        border-right: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .recipe-title {
+      font-size: var(--biggest-font-size);
+      font-family: var(--title-font);
+      color: var(--subtitle-color);
+      margin-top: 4rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .pic-rcp {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .serve-container,
+    .suggested-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3%;
+      margin-top: 2%;
+      margin-bottom: 4%;
+      color: var(--subtitle-color);
+    }
+
+    .serve-card,
+    .suggested-card {
+      position: relative;
+      width: 20%;
+      background-color: var(--container-color);
+      padding: 1rem;
+      box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
+      border-radius: 1rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .ingredient-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      padding: 10px;
+      width: 100%;
+    }
+
+    .left-column,
+    .right-column {
+      flex: 100%;
+      margin-left: 5%;
+      margin-right: 7%;
+      border-right: none;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    :root {
+      --biggest-font-size: 4rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+      --subtitle-color: #6FA12B;
+    }
+
+    .recipe-title {
+      font-size: var(--biggest-font-size);
+      font-family: var(--title-font);
+      color: var(--subtitle-color);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .pic-rcp {
+      position: relative;
+      height: 600px;
+      overflow: hidden;
+    }
+
+    .serve-container,
+    .suggested-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      color: var(--subtitle-color);
+    }
+
+    .serve-card,
+    .suggested-card {
+      position: relative;
+      width: 170px;
+      background-color: var(--container-color);
+      padding: 1rem;
+      box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
+      border-radius: 1rem;
+      text-align: center;
+    }
+
+    .ingredient-container {
+      display: flex;
+    }
+
+    .column {
+      padding: 10px;
+    }
+
+    .left-column {
+      flex: 40%;
+      margin-left: 10%;
+      border-right: 1px solid #656C73;
+    }
+
+    .right-column {
+      flex: 60%;
+      margin-left: 5%;
+      margin-right: 10%;
+    }
+
+  }
+
+    .ingredient-title {
+        font-size: 3rem;
+        font-family: var(--title-font);
+        color: var(--subtitle-color);
+        margin-bottom: 1.5rem;
+    }
+
+    .ingredient-text {
+        font-size: 1.7rem;
+        font-family: var(--title-font);
+        color: var(--subtitle-color);
+    }
+
+    .ingredient-text p {
+        font-size: 1.2rem;
+        font-family: var(--body-font);
+        color: var(--text-color);
+        margin-bottom: 1.5rem;
+    }
+
+
+    .ingredient-container ul,
+    .ingredient-container ol {
+        display: block;
+        margin-left: 50px;
+        padding-left: 0;
+    }
+
+    .ingredient-container ul li,
+    .ingredient-container ol li {
+        display: block;
+        position: relative;
+        list-style-type: none;
+    }
+
+    .ingredient-container ul li:not(:last-child),
+    .ingredient-container ol li:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .ingredient-container ul li:before,
+    .ingredient-container ol li:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        margin-top: -6px;
+        background: var(--subtitle-color);
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+    }
+
+    .suggested-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: var(--subtitle-color);
+    }
+
+    .suggested-title {
+        font-size: 3rem;
+        font-family: var(--title-font);
+        color: var(--subtitle-color);
+        margin-bottom: 1.5rem;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+
