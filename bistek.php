@@ -21,15 +21,15 @@
             <ul class="nav-list grid">
 
                 <li class="nav-item">
-                    <a href="./home.html" class="nav-link"> Home </a>
+                    <a href="./home.php" class="nav-link"> Home </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./about.html" class="nav-link"> About </a>
+                    <a href="./about.php" class="nav-link"> About </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./categories.html" class="nav-link"> Categories </a>
+                    <a href="./categories.php" class="nav-link"> Categories </a>
                 </li>
 
                 <li class="nav-item">
@@ -58,13 +58,13 @@
     </header>   
       <main class="main">
         <section class="container humba" id="humba">
-        <h2 class="recipe-title">Chicken Adobo Recipe</h2>
+        <h2 class="recipe-title">Bistek Recipe</h2>
       </section>
 
       <section>
           <div class="pic-rcp">
           <div class="pic-slider">
-            <img src="./assets/images/recipe/chickenadobo.png" alt="Image1" class="pic">
+            <img src="./assets/images/recipe/bistek.png" alt="Image1" class="pic">
           </div>
         </div>
     </section>
@@ -73,7 +73,7 @@
         <div class="serve-card">
             <p class="recipe-subtitle">Cooking Time</p>
             <img src="./assets/images/recipe/cooking.png" alt="" class="icon">
-            <p class="recipe-subtitle1">30 mins</p>
+            <p class="recipe-subtitle1">15 mins</p>
         </div>
         <div class="serve-card">
             <p class="recipe-subtitle">Prepare Time</p>
@@ -91,58 +91,62 @@
             <div class="column left-column">
                 <h2 class="ingredient-title">Ingredients</h2>
                 <ul class="ingredient-text">
-                    <li>2 tbsp canola oil</li>
-                    <li>6 cloves garlic crushed</li>
-                    <li>1 pc onion, sliced</li>
-                    <li>1 kilogram chicken cut ups</li>
-                    <li>2 tbsp vinegar</li>
-                    <li>¼ cup soy sauce</li>
-                    <li>1 cup water</li>
-                    <li>2 pcs bay leaves</li>
-                    <li>1 tsp black peppercorns</li>
-                    <li>2 pc Knorr chicken cubes</li>
-                    <li>1 tsp brown sugar packed</li>
-                    <li>Knorr Chicken Cube</li>
+                    <li>500 g beef sirloin slices, ¼” thick, pounded</li>
+                    <li>1 pc Knorr beef cube</li>
+                    <li>3 tbsps olive oil</li>
+                    <li>fine breadcrumbs</li>
+                    <li>cooking oil for frying</li>
+                    <li>¾ cup Knorr Liquid Seasoning</li>
+                    <li>¼ cup calamansi juice</li>
+                    <li>¼ cup water</li>
+                    <li>⅛ cup sugar</li>
+                    <li>1 tbsp cornstarch diluted in 3 tbsp water</li>
+                    <li>150 g onion rings, fried in oil</li>
+                    <li>1 pinch crushed black pepper</li>
+                    <li>Knorr Beef Cube</li>
                 </ul>
             </div>
             <div class="column right-column">
                 <h2 class="ingredient-title">Cook</h2>
                 <ol class="ingredient-text">
                     <li>Step 1</li>
-                        <p>Heat oil in pan and sauté garlic and onions. Then add chicken to the pan and sear on all sides, until you have a little browning in the chicken skin.</p>
+                        <p>Let’s begin by mashing the Knorr Beef Cube with a mortar and pestle. Pound it well and then slowly drizzle 3 tbsp of olive oil. Mix this well. Massage this mixture onto the beef slices.</p>
                     <li>Step 2</li>
-                        <p>Pour in vinegar, soy sauce and water. Add bay leaves, pepper and Knorr Chicken Cubes. Bring to a boil over high heat then reduce heat to simmer, but do not cover the pan. Continue to simmer for 10 mins.</p>
+                        <p>For the next step, cover the beef in breadcrumbs.</p>
                     <li>Step 3</li>
-                        <p>Remove chicken pieces from sauce and fry in another pan until nicely browned.</p>
+                        <p>Now, get your pan nice and hot over medium high heat. Pour some oil and pan-fry the beef slices. Set this aside.</p>
                     <li>Step 4</li>
-                        <p>Put back fried chicken pieces into sauce. Add sugar and let simmer again for another 10 minutes or until sauce has thickened. Serve warm.</p>
+                        <p>You can now remove the excess oil from the pan.</p>
+                    <li>Step 5</li>
+                        <p>Let’s now make the sauce: Add the Knorr Liquid Seasoning, calamansi juice, water and sugar in a bowl. Season this with black pepper and adjust the seasoning of sauce as desired. Thicken the sauce with diluted cornstarch and drizzle the sauce on top of the fried beef and top with glazed onion rings. That’s our dish!</p>
+                    <li>Step 6</li>
+                        <p>Your family will always find comfort in Bisteak Tagalog! This is home! May this recipe allow you to create more memories with your loved ones as you enjoy the company of one another while eating this dish.</p>
                 </ol>
             </div>
     </section>
     <section>
         <h1 class="suggested-title">Suggested Recipes</h1>
         <div class="popular-container container grid">
-            <a href="./sisig.html" class="link">
+            <a href="./humba.html" class="link">
                 <article class="popular-card">
-                    <img src="./assets/images/categories/img-sisig.png" alt="popular image" class="popular-img">
-                    <h3 class="popular-name">Crispy Sisig</h3>
-                    <span class="popular-description">a sizzling pork dish made with chopped pig's head and liver, seasoned with calamansi and chili peppers.</span>
+                  <img src="./assets/images/categories/img-humba.png" alt="popular image" class="popular-img">
+                  <h3 class="popular-name">Humba</h3>
+                  <span class="popular-description">Made with pork belly that is simmered in a sauce made with soy sauce, vinegar, brown sugar, garlic, and other spices.</span>
+              </a>
+              <a href="./chickenadobo.html" class="link">
+                <article class="popular-card">
+                    <img src="./assets/images/categories/img-adobo.png" alt="popular image" class="popular-img">
+                    <h3 class="popular-name">Chicken Adobo</h3>
+                    <span class="popular-description">a flavorful dish made with meat (usually chicken or pork) marinated in vinegar, soy sauce, and garlic.</span>
                 </article>
                 </a>
-                <a href="./afritada.html" class="link">
+                <a href="./sisig.html" class="link">
                     <article class="popular-card">
-                        <img src="./assets/images/categories/img-afritada.png" alt="popular image" class="popular-img">
-                        <h3 class="popular-name">Pork Afritada</h3>
-                        <span class="popular-description">pork stewed in a tomato-based sauce with vegetables such as potatoes, carrots, and bell peppers.</span>
+                        <img src="./assets/images/categories/img-sisig.png" alt="popular image" class="popular-img">
+                        <h3 class="popular-name">Crispy Sisig</h3>
+                        <span class="popular-description">a sizzling pork dish made with chopped pig's head and liver, seasoned with calamansi and chili peppers.</span>
                     </article>
                     </a>
-                <a href="./tinola.html" class="link">
-                <article class="popular-card">
-                    <img src="./assets/images/categories/img-tinola.png" alt="popular image" class="popular-img">
-                    <h3 class="popular-name">Chicken Tinola</h3>
-                    <span class="popular-description">a beef stew made with tomato sauce, soy sauce, and various spices.</span>
-                </article>
-                </a>
         </div>
     </section>
     </main>

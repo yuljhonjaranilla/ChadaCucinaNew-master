@@ -22,7 +22,7 @@
                         <i class="ri-lock-2-fill"></i>
                         <input type="password" placeholder="Password">
                     </div>
-                    <input type="submit" value="Login" class="btn" formaction="./home.html">
+                    <input type="submit" value="Login" class="btn" formaction="./home.php">
                     <p class="social-text"> or sign in with social platforms </p>
                     <div class="social-media">
                         <a href="www.facebook.com" target="blank" class="social-icon">

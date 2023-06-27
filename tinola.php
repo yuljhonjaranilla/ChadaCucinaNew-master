@@ -21,15 +21,15 @@
             <ul class="nav-list grid">
 
                 <li class="nav-item">
-                    <a href="./home.html" class="nav-link"> Home </a>
+                    <a href="./home.php" class="nav-link"> Home </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./about.html" class="nav-link"> About </a>
+                    <a href="./about.php" class="nav-link"> About </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./categories.html" class="nav-link"> Categories </a>
+                    <a href="./categories.php" class="nav-link"> Categories </a>
                 </li>
 
                 <li class="nav-item">

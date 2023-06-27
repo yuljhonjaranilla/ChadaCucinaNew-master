@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/recipe.css">
     <link rel="icon" href="./assets/icons/ChadaCucina.png">
     <title> Chada Cucina </title>
   </head>
@@ -20,15 +21,15 @@
             <ul class="nav-list grid">
 
                 <li class="nav-item">
-                    <a href="./home.html" class="nav-link"> Home </a>
+                    <a href="./home.php" class="nav-link"> Home </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./about.html" class="nav-link"> About </a>
+                    <a href="./about.php" class="nav-link"> About </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./categories.html" class="nav-link"> Categories </a>
+                    <a href="./categories.php" class="nav-link"> Categories </a>
                 </li>
 
                 <li class="nav-item">
@@ -56,61 +57,98 @@
     </nav>
     </header>   
       <main class="main">
-        <section>
-        <div class="pic-ctn1">
-          <div class="pic-slider">
-            <img src="./assets/images/about/cc1 1.png" alt="Image1" class="pic">
-          </div>
-        </div>
-        </section>
-
-        <section class="container history" id="history">
-        <span class="section-subtitle"> HISTORY</span>
-        <h2 class="section-title">Chada Cucina</h2>
-          <div class="sub-title">
-            <p>Chada Cucina is a food blog and shopping site that specializes in Filipino cuisine. The site was founded in 2022 by two student Filipino food enthusiasts who wanted to share their love for the rich and diverse flavors of Filipino cooking with the world.</p>
-            <p>At first, Chada Cucina started out as a simple blog where the founders shared their favorite Filipino recipes and cooking tips. However, as the blog gained popularity, the founders decided to expand their offerings and create a platform where people could order Filipino foods and see the ingredients used in their preparation.</p>
-            <p>Over the years, Chada Cucina has become a go-to source for Filipino food lovers all over the world. The site offers a wide variety of Filipino dishes, from classic favorites like adobo and pancit to lesser-known regional specialties. Each recipe is carefully curated and accompanied by detailed instructions, making it easy for even novice cooks to recreate the dishes at home.</p>
-            <p>In addition to recipes, Chada Cucina also offers an online store where customers can purchase ingredients, cooking tools, and other food-related products. The store carries a range of products, from staple ingredients like rice and vinegar to specialty items like banana leaves and shrimp paste.</p>
-            <p>Today, Chada Cucina is a thriving online community of Filipino food enthusiasts, home cooks, and professional chefs. The site continues to evolve and expand, with new recipes, products, and features being added all the time. Whether you're a longtime fan of Filipino cuisine or a curious newcomer, Chada Cucina is the perfect place to explore the delicious flavors and rich culinary traditions of the Philippines.</p>
-        </div>
+        <section class="container humba" id="humba">
+        <h2 class="recipe-title">Pork Afritada Recipe</h2>
       </section>
 
       <section>
-      <span class="section-subtitle">FOUNDERS SPOTLIGHT</span>
-      <h2 class="section-title">Meet the Team</h2>
-
-          <div class="pic-ctn">
+          <div class="pic-rcp">
           <div class="pic-slider">
-            <img src="./assets/images/about/Yul.png" alt="Image1" class="pic1">
-            <img src="./assets/images/about/Christian.png" alt="Image2" class="pic1">
-          </div>
-          <div class="button-ctn">
-            <button class="button-about" onclick="showPic(1)"></button>
-            <button class="button-about" onclick="showPic(2)"></button>
+            <img src="./assets/images/recipe/afritada.png" alt="Image1" class="pic">
           </div>
         </div>
     </section>
 
-    <section class="form">
-        <span class="section-subtitle">CHITCHAT</span>
-        <h2 class="section-title">Contact Us</h2>
-          <div>
-            <form action="" class="contact-form" onsubmit="return onSubmit();">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" required>
-            
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
-            
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-            
-              <button type="submit">Send</button>
-            </form>
-          </div>
-        </section>
-      </main>
+    <section class="serve-container">
+        <div class="serve-card">
+            <p class="recipe-subtitle">Cooking Time</p>
+            <img src="./assets/images/recipe/cooking.png" alt="" class="icon">
+            <p class="recipe-subtitle1">40 mins</p>
+        </div>
+        <div class="serve-card">
+            <p class="recipe-subtitle">Prepare Time</p>
+            <img src="./assets/images/recipe/wall-clock.png" alt="" class="icon">
+            <p class="recipe-subtitle1">15 mins</p>
+        </div>
+        <div class="serve-card">
+            <p class="recipe-subtitle">Serves</p>
+            <img src="./assets/images/recipe/cloche.png" alt="" class="icon">
+            <p class="recipe-subtitle1">4 people</p>
+        </div>
+    </section>
+
+    <section class="ingredient-container">
+            <div class="column left-column">
+                <h2 class="ingredient-title">Ingredients</h2>
+                <ul class="ingredient-text">
+                    <li>3 tbsp cooking oil</li>
+                    <li>1 pc medium sized onion, minced</li>
+                    <li>4 cloves garlic, minced</li>
+                    <li>½ kg pork kasim, sliced into 2" cubes</li>
+                    <li>250 g (1 pack) tomato sauce</li>
+                    <li>1 - ½ cups water</li>
+                    <li>½ tsp sugar</li>
+                    <li>1 pc Knorr Pork Cube</li>
+                    <li>1 pc medium sized potato, cut into cubes</li>
+                    <li>1 pc medium sized carrot, cut into cubes</li>
+                    <li>1 pc red bell pepper, sliced</li>
+                    <li>1 pc green bell pepper, sliced</li>
+                    <li>ground black pepper, to taste</li>
+                </ul>
+            </div>
+            <div class="column right-column">
+                <h2 class="ingredient-title">Cook</h2>
+                <ol class="ingredient-text">
+                    <li>Step 1</li>
+                        <p>Begin by getting your pan nice and hot over medium heat. Pour some oil and sauté onions and garlic. Add pork next and just cook until slightly brown.</p>
+                    <li>Step 2</li>
+                        <p>Pour the tomato sauce next with the water, sugar and Knorr Pork Broth Cube. Simmer until meat is tender.</p>
+                    <li>Step 3</li>
+                        <p>Now, in goes the potatoes and carrots and cook until tender.</p>
+                    <li>Step 4</li>
+                        <p>Add bell peppers and season with black pepper. Simmer for 2 minutes and enjoy this dish hot.</p>
+                    <li>Step 5</li>
+                        <p>What better way to enjoy food when you have your favourite dishes on the table? This Holiday Afritada Recipe is one of those dishes you will always look forward to especially on Christmas day.</p>
+                </ol>
+            </div>
+    </section>
+    <section>
+        <h1 class="suggested-title">Suggested Recipes</h1>
+        <div class="popular-container container grid">
+            <a href="./tinola.html" class="link">
+                <article class="popular-card">
+                    <img src="./assets/images/categories/img-tinola.png" alt="popular image" class="popular-img">
+                    <h3 class="popular-name">Chicken Tinola</h3>
+                    <span class="popular-description">a beef stew made with tomato sauce, soy sauce, and various spices.</span>
+                    <span class="popular-price">₱ 150</span>
+                </article>
+                </a>
+                <a href="./bistek.html" class="link">
+                <article class="popular-card">
+                    <img src="./assets/images/categories/img-bistek.png" alt="popular image" class="popular-img">
+                    <h3 class="popular-name">Bistek</h3>
+                    <span class="popular-description">a beef dish marinated in soy sauce and calamansi, topped with caramelized onions.</span>
+                </article>
+                </a>
+                <a href="./humba.html" class="link">
+                    <article class="popular-card">
+                      <img src="./assets/images/categories/img-humba.png" alt="popular image" class="popular-img">
+                      <h3 class="popular-name">Humba</h3>
+                      <span class="popular-description">Made with pork belly that is simmered in a sauce made with soy sauce, vinegar, brown sugar, garlic, and other spices.</span>
+                  </a>
+        </div>
+    </section>
+    </main>
 
       <footer class="footer">
         <div class="footer-container container grid">
@@ -225,51 +263,5 @@
   </a>
   <script src="./js/scrollreveal.min.js"></script>
   <script src="./js/main.js"></script>
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function prevPic() {
-      showSlides(slideIndex -= 1);
-    }
-
-    function nextPic() {
-      showSlides(slideIndex += 1);
-    }
-
-    function showPic(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("pic");
-      var buttons = document.getElementsByClassName("button");
-
-      if (n > slides.length) {
-        slideIndex = 1;
-      }
-
-      if (n < 1) {
-        slideIndex = slides.length;
-      }
-
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.transform = "translateX(-" + (slideIndex - 1) * 100 + "%)";
-      }
-
-      for (i = 0; i < buttons.length; i++) {
-        buttons[i].classList.remove("active");
-      }
-
-      buttons[slideIndex - 1].classList.add("active");
-    }
-
-    function onSubmit() {
-      alert('Thank you! Your message has been sent.');
-      return true; 
-    }
-
-  </script>
     </body>
     </html>

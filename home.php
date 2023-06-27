@@ -22,15 +22,15 @@
                     <ul class="nav-list grid">
 
                         <li class="nav-item">
-                            <a href="./home.html" class="nav-link"> Home </a>
+                            <a href="./home.php" class="nav-link"> Home </a>
                         </li>
         
                         <li class="nav-item">
-                            <a href="./about.html" class="nav-link"> About </a>
+                            <a href="./about.php" class="nav-link"> About </a>
                         </li>
         
                         <li class="nav-item">
-                            <a href="./categories.html" class="nav-link"> Categories </a>
+                            <a href="./categories.php" class="nav-link"> Categories </a>
                         </li>
 
                         <li class="nav-item">
@@ -86,7 +86,7 @@
                         <img src="./assets/images/home/ingredients.png" alt="ingredients" class="features-img">
                         <h3 class="features-name"> Ingredients </h3>
                         <span class="features-description"> 
-                            Know what you eat - view ingredients at a glance make your meal choices with confidence!
+                            Know what you eat - view ingredients at a glance make meal with confidence!
                         </span>
                     </article>
 
@@ -94,7 +94,7 @@
                         <img src="./assets/images/home/deliver.png" alt="deliver" class="features-img">
                         <h3 class="features-name"> Deliver </h3>
                         <span class="features-description"> 
-                            Satisfy your hunger with our delivery feature - order now and enjoy a hassle-free feast!
+                            Satisfy your hunger with delivery - order now and enjoy a hassle-free feast!
                         </span>
                     </article>
 
@@ -102,7 +102,7 @@
                         <img src="./assets/images/home/star.png" alt="ingredients" class="features-img">
                         <h3 class="features-name"> Rate </h3>
                         <span class="features-description"> 
-                            Share your food experiences and guide others by rating the flavors, textures, and presentations!
+                            Share your food experiences by rating the flavors and presentations!
                         </span>
                     </article>
                 </div>
@@ -209,12 +209,12 @@
                     </a>
 
                     <p class="footer-description">
-                        Chada Cucina is a food blog and shopping <br/>
-                        site that specializes in Filipino cuisine.  <br/>
-                        The site was founded in 2022 by two student <br/>
-                        Filipino food enthusiasts who wanted to <br/>
-                        share their love for the rich and diverse <br/>
-                        flavors of Filipino cooking with the world. <br/>
+                        Chada Cucina is a food blog and shopping
+                        site that specializes in Filipino cuisine.
+                        The site was founded in 2022 by two student
+                        Filipino food enthusiasts who wanted to
+                        share their love for the rich and diverse 
+                        flavors of Filipino cooking with the world.
                     </p>
                 </div>
 

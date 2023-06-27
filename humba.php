@@ -21,15 +21,15 @@
             <ul class="nav-list grid">
 
                 <li class="nav-item">
-                    <a href="./home.html" class="nav-link"> Home </a>
+                    <a href="./home.php" class="nav-link"> Home </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./about.html" class="nav-link"> About </a>
+                    <a href="./about.php" class="nav-link"> About </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="./categories.html" class="nav-link"> Categories </a>
+                    <a href="./categories.php" class="nav-link"> Categories </a>
                 </li>
 
                 <li class="nav-item">
@@ -58,13 +58,13 @@
     </header>   
       <main class="main">
         <section class="container humba" id="humba">
-        <h2 class="recipe-title">Crispy Sisig Recipe</h2>
+        <h2 class="recipe-title">Humba Recipe</h2>
       </section>
 
       <section>
           <div class="pic-rcp">
           <div class="pic-slider">
-            <img src="./assets/images/recipe/sisig.png" alt="Image1" class="pic">
+            <img src="./assets/images/recipe/humba.png" alt="Image1" class="pic">
           </div>
         </div>
     </section>
@@ -91,60 +91,61 @@
             <div class="column left-column">
                 <h2 class="ingredient-title">Ingredients</h2>
                 <ul class="ingredient-text">
-                    <li>2 kg whole pork liempo (lechon kawali cut)</li>
-                    <li>1 tbsp rock salt</li>
-                    <li>2 pcs onion, cut into wedges</li>
-                    <li>water, enough to cover pork</li>
-                    <li>canola oil (for deep frying)</li>
-                    <li>2 tbsp chopped garlic</li>
-                    <li>1/2 kg chicken liver, cut into small cubes</li>
-                    <li>1 cup chopped onions</li>
-                    <li>3 -4 pcs green chillies, sliced</li>
-                    <li>2 -4 tbsp Knorr Seasoning</li>
-                    <li>2 tbsp calamansi juice</li>
-                    <li>ground black pepper to taste</li>
-                    <li>Knorr Liquid Seasoning</li>
+                    <li>2 tbsp cooking oil</li>
+                    <li>1 pc onion, chopped</li>
+                    <li>1 tbsp garlic, chopped</li>
+                    <li>½ kg liempo, cubed</li>
+                    <li>1 pc Knorr pork cube</li>
+                    <li>¼ cup black beans</li>
+                    <li>¼ cup vinegar</li>
+                    <li>1 cup pineapple juice</li>
+                    <li>water as needed</li>
+                    <li>½ cup brown sugar</li>
+                    <li>2 pcs chilies</li>
+                    <li>½ cup banana blossoms</li>
+                    <li>Knorr Pork Cube</li>
                 </ul>
             </div>
             <div class="column right-column">
                 <h2 class="ingredient-title">Cook</h2>
                 <ol class="ingredient-text">
                     <li>Step 1</li>
-                        <p>Let's begin by getting a pot and filling it with water then add salt, onion wedges and the pork belly or lechon kawali. Cook until tender. Drain from the water and set aside on a plate or tray to cool and air-dry.</p>
+                        <p>Get your pan nice and hot over medium heat. Pour some oil and sauté the onion, garlic until brown and soft, then add the cubed pork.</p>
                     <li>Step 2</li>
-                        <p>Get a shallow pan and make it nice and hot. Pour enough oil and deep fry tenderized pork until crisp and golden brown. Let cool and chop coarsely.</p>
+                        <p>Add Knorr Pork Cubes and black beans. Sauté for a minute.</p>
                     <li>Step 3</li>
-                        <p>Using another pan, throw in the garlic and liver. Saute until fully cooked.</p>
+                        <p>Pour the vinegar and let this simmer before adding the pineapple juice, water, brown sugar, soy sauce, chillies and banana blossoms.</p>
                     <li>Step 4</li>
-                        <p>Off heat, toss in the onions, chopped crispy pork and green chillies. Season with more Knorr Liquid Seasoning, calamansi juice and pepper. And that's it! Prepare to eat more than usual for you will find yourself falling in love with the goodness of this Crispy Sisig!</p>
+                        <p>Cook this covered at low heat until pork is tender and sauce has thickened. Taste and check the seasoning.</p>
+                    <li>Step 5</li>
+                        <p>With hot rice, you’ll find yourself eating more than usual. So, what are you waiting for? Give this recipe a try!</p>
                 </ol>
             </div>
     </section>
     <section>
         <h1 class="suggested-title">Suggested Recipes</h1>
         <div class="popular-container container grid">
-            <a href="./afritada.html" class="link">
+            <a href="./chickenadobo.html" class="link">
                 <article class="popular-card">
-                    <img src="./assets/images/categories/img-afritada.png" alt="popular image" class="popular-img">
-                    <h3 class="popular-name">Pork Afritada</h3>
-                    <span class="popular-description">pork stewed in a tomato-based sauce with vegetables such as potatoes, carrots, and bell peppers.</span>
+                    <img src="./assets/images/categories/img-adobo.png" alt="popular image" class="popular-img">
+                    <h3 class="popular-name">Chicken Adobo</h3>
+                    <span class="popular-description">a flavorful dish made with meat (usually chicken or pork) marinated in vinegar, soy sauce, and garlic.</span>
                 </article>
                 </a>
-            <a href="./tinola.html" class="link">
-            <article class="popular-card">
-                <img src="./assets/images/categories/img-tinola.png" alt="popular image" class="popular-img">
-                <h3 class="popular-name">Chicken Tinola</h3>
-                <span class="popular-description">a beef stew made with tomato sauce, soy sauce, and various spices.</span>
-                <span class="popular-price">₱ 150</span>
-            </article>
-            </a>
-            <a href="./bistek.html" class="link">
-            <article class="popular-card">
-                <img src="./assets/images/categories/img-bistek.png" alt="popular image" class="popular-img">
-                <h3 class="popular-name">Bistek</h3>
-                <span class="popular-description">a beef dish marinated in soy sauce and calamansi, topped with caramelized onions.</span>
-            </article>
-            </a>
+                <a href="./sisig.html" class="link">
+                <article class="popular-card">
+                    <img src="./assets/images/categories/img-sisig.png" alt="popular image" class="popular-img">
+                    <h3 class="popular-name">Crispy Sisig</h3>
+                    <span class="popular-description">a sizzling pork dish made with chopped pig's head and liver, seasoned with calamansi and chili peppers.</span>
+                </article>
+                </a>
+                <a href="./afritada.html" class="link">
+                    <article class="popular-card">
+                        <img src="./assets/images/categories/img-afritada.png" alt="popular image" class="popular-img">
+                        <h3 class="popular-name">Pork Afritada</h3>
+                        <span class="popular-description">pork stewed in a tomato-based sauce with vegetables such as potatoes, carrots, and bell peppers.</span>
+                    </article>
+                </a>
         </div>
     </section>
     </main>
